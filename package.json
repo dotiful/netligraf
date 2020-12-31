@@ -1,0 +1,19 @@
+{
+  "name": "netligraf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/tocamos.js",
+  "scripts": {
+    "postinstall": "netlify-lambda install",
+    "buildNetlify": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devNetlify": "netlify-lambda serve functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^2.0.2",
+    "telegraf": "^3.38.0"
+  }
+}
